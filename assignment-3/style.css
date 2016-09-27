@@ -1,0 +1,15 @@
+/*General Styling*/
+body{
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    background-color :#F1F1F1;
+    color: #333;
+    margin:0;
+}
+a,a:visited{
+    text-decoration: none;
+    color: #d69e00;
+}
+a:hover{
+    color: #e4b532;
+}
