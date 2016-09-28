@@ -13,3 +13,77 @@ a,a:visited{
 a:hover{
     color: #e4b532;
 }
+
+
+/* Hero*/
+.hero{
+    background-color: #16445f;
+    text-align: center;
+    overflow: auto;
+}
+.hero-card{
+    border: 2px solid #fff;
+    color: #efefef;
+    padding: 50px;
+    width: 800px;
+    margin: 100px auto 50px auto;
+}
+.hero-card-title{
+    
+}
+.hero-card-description{
+    font-family: georgia, serif;
+    font-size: 30px;
+    
+}
+a.hero-card-link{
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+}
+
+a.hero-card-link: hover{
+    color: #D69E00;
+    border-color: #D69E00;
+}
+
+/* Navigation*/
+.main-nav{
+    margin: 20px auto;
+}
+a.nav-like{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+a.nav-link:hover{
+    color: #FFD86B;
+    border-color: #FFD86B;
+}
+
+/* Main content */
+.main-content{
+    padding: 20px;
+    text-align: center;
+}
+
+/*footer */
+footer{
+    background-color: #333;
+    color: #999;
+    padding:20px;
+    text-align: center;
+}
+.footer-link{
+    color: #AB810A;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color:# D69E00;
+    text-decoration: underline;
+}
