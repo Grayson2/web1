@@ -84,6 +84,61 @@ footer{
     text-decoration: none;
 }
 .footer-link:hover{
-    color:# D69E00;
+    color:#D69E00;
     text-decoration: underline;
+}
+
+/* Home*/
+.card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 20px auto;
+}
+.card-title{
+    padding: 10px 20px;
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
+/* About*/
+.about-list-container{
+    border: 40px solid #ddd;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+/* Search */
+.search-placeholder{
+    width: 600px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+}
+/* Coffer */
+.coffee-quote{
+    font-size: 30px;
+    color: #16445f;
+}
+.menu{
+    border: 4px solid #ddd;
+    text-align: left;
+    padding: 20px;
+}
+dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+dd{
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/* Assignments*/
+.assignment-list{
+    border: 4px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 860px;
 }
