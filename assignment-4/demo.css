@@ -1,0 +1,21 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower|Poiret+One';body{
+    background-color: #3399cc;
+}
+
+.large{
+    color:  #ffffff;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    width: 800px;
+    min-width: 1000px;
+    border: 1px solid yellow;
+}
+
+.small{
+    color: #663399;
+    font-size: 50px;
+    font-style: italic;
+    font-stretch: expanded;
+    font-family: 'Poiret One', cursive;
+}
