@@ -2,7 +2,7 @@
 
 /*General Styling*/
 body{
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'roboto', arial, sans-serif;
     font-weight: 400;
     background-color :#F1F1F1;
     color: #333;
@@ -55,16 +55,19 @@ a.hero-card-link: hover{
     margin-right: 100px;
     width: 0;
     height: 0;
-    color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
     padding-bottom: 60px 160px 0 0;
-    background-image: url('image/logo.png');
+    background-image: url('image/logo.jpg');
     background-size: 120px 60px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 3px;
-    transition:  all .2s ease;
+    transition: all 0.2s ease;
 }
 
+.logo:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
 /* Navigation*/
 .main-nav{
     max-width:960px;
@@ -76,12 +79,12 @@ a.nav-link{
     color: #fff;
     text-decoration: none;
     height: 40px;
-    line-height: 40px;
+    line-height: 38px;
     font-size: 20px;
-    font-family: Cormorant, cursive;
+    font-family: 'cormorant', cursive;
     display: inline-block;
     margin: 10px 5px;
-    padding: 10px 15px;
+    padding: 0px 15px;
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0);
     transition: all 0.2s ease;
@@ -89,13 +92,18 @@ a.nav-link{
 a.nav-link:hover{
     color: #FFD86B;
     border-color: #FFD86B;
-    background-color: 
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Main content */
 .main-content{
+    margin:50px auto;
+    width: 960px;
     padding: 20px;
     text-align: center;
+}
+.clear{
+    clear:both;
 }
 
 /*footer */
@@ -115,6 +123,22 @@ footer{
 }
 
 /* Home*/
+a.card{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    width: calc(33.3%-20px);
+    min-height: 310px;
+    margin: 10px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.025);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
 .card{
     background-color: #fff;
     border: 1px solid #ddd;
@@ -122,17 +146,41 @@ footer{
     margin: 20px auto;
 }
 .card-title{
-    padding: 10px 20px;
+    padding: 0 20px;
     margin: 20px 0 10px 0;
+    font-family: 'Cormorant', cursive;
     font-size: 24px;
 }
-/* About*/
-.about-list-container{
-    border: 40px solid #ddd;
-    text-align: left;
-    padding: 20px;
-    margin: 20px;
+.card-description{
+    padding: 0 20px;
+    margin:0 0 20px 0;
+    color: #999;
 }
+/* About*/
+.about-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.about-list-container{
+    border-left: 5px solid #d69e00;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 20px 50px;
+}
+.about-list-title{
+    font-size: 30px;
+    font-weight: 400px;
+    color: #d69e00;
+}
+.about-list{
+    font-size: 24px;
+}
+.about-list li{
+    margin: 1em auto;
+}
+
 /* Search */
 .search-placeholder{
     width: 600px;
