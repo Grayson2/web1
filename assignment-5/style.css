@@ -56,8 +56,8 @@ a.hero-card-link: hover{
     width: 0;
     height: 0;
     color: rgba(255, 255, 255, 0);
-    padding-bottom: 60px 160px 0 0;
-    background-image: url('image/logo.jpg');
+    padding: 60px 120px 0 0;
+    background-image: url('images/logo.jpg');
     background-size: 120px 60px;
     background-position: center;
     background-repeat: no-repeat;
