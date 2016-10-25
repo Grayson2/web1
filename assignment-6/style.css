@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Cormorant:300,300i,400|Roboto:100,100i,300,400,400i,700';
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+@import url('https://fonts.googleapis.com/css?family=Buenard');
 
 /*General Styling*/
 body{
@@ -36,12 +38,12 @@ a:hover{
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
 }
 .hero-card-title{
-    font-family: Cormorant, cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     margin:0;
     font-size: 50px;
 }
 .hero-card-description{
-    font-family: Cormorant, cursive;
+    font-family: 'Buenard', cursive;
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
@@ -92,7 +94,7 @@ a.nav-link{
     height: 40px;
     line-height: 38px;
     font-size: 20px;
-    font-family: Cormorant, cursive;
+    font-family: 'Cormorant', cursive;
     display: inline-block;
     margin: 10px 5px;
     padding: 0px 15px;
