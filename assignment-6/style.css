@@ -250,7 +250,7 @@ cite{
     font-style: italic;
     font-size: 14px;
 }
-.menu.label{
+.menu .label{
     text-align: left;
 }
 /* Assignments*/
