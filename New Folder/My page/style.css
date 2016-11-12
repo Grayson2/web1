@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|Quattrocento+Sans|Quicksand|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Scheherazade');
+@import url('https://fonts.googleapis.com/css?family=Sintony');
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    margin:0px;
+}
+div{
+    display: block;
+}
+.hero{
+    margin:100px auto;
+    text-align: left;
+    
+}
+.wrapper{
+    width:980px;
+    margin: 0 auto;
+}
+
+.hero-card{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    padding: 50px;
+    max-width: 980px;
+    margin: auto;
+    
+}
+.hero-card-title{
+    font-family: 'Quicksand';
+    margin:0;
+    font-size: 50px;
+}
+.hero-card-description{
+    margin:20px auto;
+    font-family: 'Scheherazade';
+}
+.splash_page{
+    background-image: url('images/splash_page.jpg');
+    max-width: 980px;
+    height: 300px;
+}
+.main_content{
+    display: inline-block;
+}
+.card{
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    min-height:360px;
+    min-width: 360px;
+    margin:30px 65px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    
+}
+a{
+    text-decoration: none;
+}
+.header{
+    font-family: 'Quicksand';
+    text-align: center;
+    color: white;
+}
+.card_title{
+    font-family: 'Philosopher';
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+.card_description{
+    font-family: 'Sintony';
+    text-align: left;
+    padding: 0px 0px 0px 25px;
+    font-size: 15px;
+    
+}
+.card_image{
+    margin:30px 30px 0px 30px; 
+    box-shadow: 0 0 15px #777777;
+    transition: all 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
