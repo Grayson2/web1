@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher');
 @import url('https://fonts.googleapis.com/css?family=Scheherazade');
 @import url('https://fonts.googleapis.com/css?family=Sintony');
-body{
+.home{
     background-image: url('images/background.jpg');
+}
+body{
+
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
@@ -85,4 +88,32 @@ a{
     margin:30px 30px 0px 30px; 
     box-shadow: 0 0 15px #777777;
     transition: all 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* page for The Walking Dead and The Westworld*/
+.TheWalkingDead{
+    text-align: center;
+    background-image: url('images/the-walking-dead-6-temporada-logo-rick-grimes-696x410.jpg');
+}
+.main-nav{
+    margin:100px;
+}
+.hero-style1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color:black;
+    padding: 30px 0px;
+    max-width: 780px;
+    margin:0px 100px;
+}
+.title1{
+    margin:0px 0px 20px 0px;
+}
+.information1{
+    padding:0px 30px;
+}
+.main_content1{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin:0px 25px;
+    
 }
