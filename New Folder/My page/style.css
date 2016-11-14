@@ -203,3 +203,23 @@ a{
 .BlackMirror{
     background-image: url('images/black-mirror-8.jpg');
 }
+
+/*The Crown and The Game of Thrones*/
+.TheCrown{
+    background-image: url('images/The Crown.jpg');
+}
+.hero-style2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    padding: 15px 0px;
+    max-width: 780px;
+    margin:15px 100px;
+}
+.main_content2{
+    background-color:rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.GameofThrones{
+    background-image: url('images/game-of-thrones-minimalist-season-poster-640409.6.jpg');
+}
