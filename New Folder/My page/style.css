@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher');
 @import url('https://fonts.googleapis.com/css?family=Scheherazade');
 @import url('https://fonts.googleapis.com/css?family=Sintony');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 .home{
     background-image: url('images/background.jpg');
 }
@@ -90,7 +91,7 @@ a{
     transition: all 0.2s cubic-bezier(0.4, 0, 1, 1);
 }
 
-/* page for The Walking Dead and The Westworld*/
+/* css for The Walking Dead and America Horror Story*/
 .TheWalkingDead{
     text-align: center;
     background-image: url('images/the-walking-dead-6-temporada-logo-rick-grimes-696x410.jpg');
@@ -102,18 +103,100 @@ a{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     color:black;
-    padding: 30px 0px;
+    padding: 15px 0px;
     max-width: 780px;
-    margin:0px 100px;
+    margin:15px 100px;
 }
 .title1{
     margin:0px 0px 20px 0px;
+    font-family: 'Quicksand';
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #666666;
 }
 .information1{
-    padding:0px 30px;
+    padding:0px 80px;
+    font-family: 'Scheherazade';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100%;
+    max-width: 690px;
+    margin:15 0 0 0;
 }
 .main_content1{
     background-color: rgba(255, 255, 255, 0.9);
     margin:0px 25px;
+    text-align: center;
+}
+.main-title1{
+    margin:5px 0px 15px 0px;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #666666;
+}
+.image1{
+    margin: 0px 0px 15px 0px;
     
+}
+.image-style1{
+    box-shadow: 0px 0px 10px #777777;
+    margin:15px;
+    
+}
+.introduction1{
+    text-align: center;
+    max-width:730px;
+    padding:0px 100px 15px 100px;
+    margin:0px;
+    font-size: 23px;
+    font-family: 'Muli';
+}
+
+
+.AmericaHorrorStory{
+    background-image: url('images/America Horror.jpg');
+}
+
+/*Westworld and Black Mirror*/
+.Westworld{
+    background-image: url('images/e5Goab0Eqn95Oq8stApcFo2GhKl.jpg');
+}
+.hero-card-part2{
+    display: block;
+    text-align: center;
+}
+.information2{
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0px;
+    padding:15px;
+    font-size: 30px;
+    font-family: 'Scheherazade';
+    line-height: 110%;
+    border: 5px double;
+    text-shadow:-1px -1px 1px #666666; 
+}
+.poster{
+    display: inline-block;
+    padding:15px;
+    vertical-align: middle;
+}
+.main-title2{
+    margin:5px 0px 15px 0px;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #666666;
+    text-align: left;
+    padding: 15px 0 0 15px;
+}
+.introduction2{
+    text-align: center;
+    max-width:730px;
+    padding:15px;
+    margin:0 auto 15px auto;
+    font-size: 23px;
+    font-family: 'Muli';
+    border: 3px solid;
 }
