@@ -3,6 +3,33 @@
 @import url('https://fonts.googleapis.com/css?family=Scheherazade');
 @import url('https://fonts.googleapis.com/css?family=Sintony');
 @import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* navigations*/
+.main-nav{
+    padding:10px 0px 0px 30px;
+    display: inline-block;
+}
+.logo{
+    float:left;
+    width: 79px;
+    height: 79px;
+    margin-right: auto;
+    color:rgba(255,255,255,0);
+    background-image:url('icons/icon.png');
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+.site-name{
+    color:white;
+    vertical-align: bottom;
+    display: inline-block;
+    margin: 40px 0 0 10px;
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+/*Home page*/
 .home{
     background-image: url('images/background.jpg');
 }
@@ -17,8 +44,8 @@ div{
     display: block;
 }
 .hero{
-    margin:100px auto;
-    text-align: left;
+    margin:5px auto;
+    background-color:rgba(0, 0, 0, 0.7);
     
 }
 .wrapper{
@@ -96,9 +123,7 @@ a{
     text-align: center;
     background-image: url('images/the-walking-dead-6-temporada-logo-rick-grimes-696x410.jpg');
 }
-.main-nav{
-    margin:100px;
-}
+
 .hero-style1{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
