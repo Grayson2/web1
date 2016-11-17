@@ -6,21 +6,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /* navigations*/
 .main-nav{
-    padding:10px 0px 0px 30px;
+    padding:0px 0px 9px 550px;
     display: inline-block;
+    margin-right: 100px;
+}
+.nav-link:hover{
+    background-color:rgba(255, 255, 255, 0.7);
 }
 .logo{
-    float:left;
     width: 79px;
     height: 79px;
-    margin-right: auto;
     color:rgba(255,255,255,0);
     background-image:url('icons/icon.png');
     background-repeat: no-repeat;
     border-radius: 3px;
     transition: all 0.2s ease;
     display: inline-block;
+    text-align: left;
 }
+
 .site-name{
     color:white;
     vertical-align: bottom;
@@ -29,12 +33,16 @@
     font-size: 25px;
     font-family: 'Roboto';
 }
+.nav-link{
+    padding:0 10px;
+    text-align: right;
+    height: 60px;
+}
 /*Home page*/
 .home{
     background-image: url('images/background.jpg');
 }
 body{
-
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
@@ -46,6 +54,7 @@ div{
 .hero{
     margin:5px auto;
     background-color:rgba(0, 0, 0, 0.7);
+    
     
 }
 .wrapper{
@@ -179,11 +188,13 @@ a{
 
 
 .AmericaHorrorStory{
+    text-align: center;
     background-image: url('images/America Horror.jpg');
 }
 
 /*Westworld and Black Mirror*/
 .Westworld{
+    text-align: center;
     background-image: url('images/e5Goab0Eqn95Oq8stApcFo2GhKl.jpg');
 }
 .hero-card-part2{
@@ -226,11 +237,13 @@ a{
     border: 3px solid;
 }
 .BlackMirror{
+    text-align: center;
     background-image: url('images/black-mirror-8.jpg');
 }
 
 /*The Crown and The Game of Thrones*/
 .TheCrown{
+    text-align: center;
     background-image: url('images/The Crown.jpg');
 }
 .hero-style2{
@@ -246,5 +259,6 @@ a{
     color: white;
 }
 .GameofThrones{
+    text-align: center;
     background-image: url('images/game-of-thrones-minimalist-season-poster-640409.6.jpg');
 }
