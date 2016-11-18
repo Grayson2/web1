@@ -13,17 +13,27 @@
     justify-content: flex-end;
     align-items:center;
 }
+.hero-mainpage{
+    background:rgba(0, 0, 0, 0.7);
+    
+}
+.nav-mainpage{
+    display:inline-block;
+}
 .nav1{
     position:relative;
     text-align: right;
     display:inline-block;
+    padding:10px;
+    border-radius:100px;
 }
 .nav1:hover{
+    transition: all 1.0s ease;
     background-color:rgba(255, 255, 255, 0.7);
 }
 .logo{
-    width: 79px;
-    height: 79px;
+    width: 85px;
+    height: 85px;
     color:rgba(255,255,255,0);
     background-image:url('icons/icon.png');
     background-repeat: no-repeat;
@@ -34,24 +44,30 @@
     justify-content:flex-start;
     align-items: center;
     text-align: left;
+    margin:0px 0px -10px 35px;
 }
 .hero{
     background-color:rgba(0, 0, 0, 0.7);
     z-index: 1;
     float:left;
+    height:99px;
 }
 .site-name{
     color:white;
     vertical-align: bottom;
     display: inline-block;
-    margin: 40px 0 0 10px;
+    margin: 0px 0 0 10px;
     font-size: 25px;
     font-family: 'Roboto';
 }
 .nav-link{
-    padding:0 10px;
-    text-align: right;
+    padding:0px;
     height: 60px;
+    text-align: center;
+}
+.icon-border{
+    border:2px solid rgba(0, 0, 0, 0);
+    border-bottom-color: #ddd;
 }
 /*Home page*/
 .home{
