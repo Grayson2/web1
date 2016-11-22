@@ -1,255 +1,289 @@
-body{
-  font-family: arial, sans-serif;
-  margin:0;
-}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|Quattrocento+Sans|Quicksand|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Scheherazade');
+@import url('https://fonts.googleapis.com/css?family=Sintony');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* navigations*/
 .main-nav{
-  background-color: #333333;
-  font-size: 20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:10px 100px 5px 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
 }
-.nav-ideas{
-  color: #62B7BB;
+.hero-mainpage{
+    background:rgba(0, 0, 0, 0.7);
+    
 }
-.nav-trail{
-  color:#288bcd;
+.nav-mainpage{
+    display:inline-block;
 }
-.nav-mountains{
-  color:#ee5573;
+.nav1{
+    position:relative;
+    text-align: right;
+    display:inline-block;
+    padding:10px;
+    border-radius:100px;
 }
-.nav-life{
-  color: #ffa73a;
+.nav1:hover{
+    transition: all 1.0s ease;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+.logo{
+    width: 85px;
+    height: 85px;
+    color:rgba(255,255,255,0);
+    background-image:url('icons/icon.png');
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: left;
+    margin:0px 0px -10px 35px;
+}
+.hero{
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    float:left;
+    height:99px;
+}
+.site-name{
+    color:white;
+    vertical-align: bottom;
+    display: inline-block;
+    margin: 0px 0 0 10px;
+    font-size: 25px;
+    font-family: 'Roboto';
 }
 .nav-link{
-  text-decoration: none;
-  padding:10px 20px;
-  display: inline-block;
-  border-radius:15px;
-  margin: 5px;
+    padding:0px;
+    height: 60px;
+    text-align: center;
 }
-.nav-link:hover {
-  background-color: rgba(255,255,255,0.1);
+.icon-border{
+    border:2px solid rgba(0, 0, 0, 0);
+    border-bottom-color: #ddd;
 }
-/* Hero Style*/
-.hero-yellow{
-  min-height: 400px;
-  background-image: url('images/city-yellow.jpg');
-  text-align:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  text-align: center;
-  color: white;
+/*Home page*/
+.home{
+    background-image: url('images/background.jpg');
 }
-.hero-h1{
-  margin:0;
-  padding-top: 100px;
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    margin:0px;
 }
-
-.left-box-yellow{
-  border: 2px solid #ffa73a;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin:30px;
-  background-color: #ffa73a;
+div{
+    display: block;
 }
-.right-box-yellow{
-  border: 2px solid #ffa73a;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  background-color: #ffa73a;
-}
-.left-box-blue{
-  border: 2px solid blue;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin:30px;
-  background-color: blue;
-}
-.right-box-blue{
-  border: 2px solid blue;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  background-color: blue
-}
-.left-box-red{
-  border: 2px solid red;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin:30px;
-  background-color: red;
-}
-.right-box-red{
-  border: 2px solid red;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  background-color: red;
-}
-.main-content{
-  text-align:center;
+.wrapper{
+    width:980px;
+    margin: 0 auto;
 }
 
-.hero-blue{
-  background-image: url('images/snow-blue.jpg');
+.hero-card{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    padding: 50px;
+    max-width: 980px;
+    margin: auto;
+    
 }
-.hero-red{
-  background-image: url('images/mountains-red.jpg');
+.hero-card-title{
+    font-family: 'Quicksand';
+    margin:0;
+    font-size: 50px;
+}
+.hero-card-description{
+    margin:20px auto;
+    font-family: 'Scheherazade';
+}
+.splash_page{
+    background-image: url('images/splash_page.jpg');
+    max-width: 980px;
+    height: 300px;
+}
+.main_content{
+    display: inline-block;
+}
+.card{
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    min-height:360px;
+    min-width: 360px;
+    margin:30px 65px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    
+}
+a{
+    text-decoration: none;
+}
+.header{
+    font-family: 'Quicksand';
+    text-align: center;
+    color: white;
+}
+.card_title{
+    font-family: 'Philosopher';
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+.card_description{
+    font-family: 'Sintony';
+    text-align: left;
+    padding: 0px 0px 0px 25px;
+    font-size: 15px;
+    
+}
+.card_image{
+    margin:30px 30px 0px 30px; 
+    box-shadow: 0 0 15px #777777;
+    transition: all 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* css for The Walking Dead and America Horror Story*/
+.TheWalkingDead{
+    text-align: justify;
+    background-image: url('images/the-walking-dead-6-temporada-logo-rick-grimes-696x410.jpg');
+}
+
+.hero-style1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color:black;
+    padding: 15px 0px;
+    max-width: 780px;
+    margin:15px 100px;
+}
+.title1{
+    margin:0px 0px 20px 0px;
+    font-family: 'Quicksand';
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #666666;
+}
+.information1{
+    padding:0px 80px;
+    font-family: 'Scheherazade';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100%;
+    max-width: 690px;
+    margin:15 0 0 0;
+}
+.main_content1{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin:0px 25px;
+    text-align: center;
+}
+.main-title1{
+    margin:5px 0px 15px 0px;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #666666;
+}
+.image1{
+    margin: 0px 0px 15px 0px;
+    
+}
+.image-style1{
+    box-shadow: 0px 0px 10px #777777;
+    margin:15px;
+    
+}
+.introduction1{
+    text-align: center;
+    max-width:730px;
+    padding:0px 100px 15px 100px;
+    margin:0px;
+    font-size: 23px;
+    font-family: 'Muli';
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.AmericaHorrorStory{
+    text-align: justify;
+    background-image: url('images/America Horror.jpg');
+}
+
+/*Westworld and Black Mirror*/
+.Westworld{
+    text-align: justify;
+    background-image: url('images/e5Goab0Eqn95Oq8stApcFo2GhKl.jpg');
+}
+.hero-card-part2{
+    display: block;
+    text-align: center;
+}
+.information2{
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0px;
+    padding:15px;
+    font-size: 30px;
+    font-family: 'Scheherazade';
+    line-height: 110%;
+    border: 5px double;
+    text-shadow:-1px -1px 1px #666666; 
+}
+.poster{
+    display: inline-block;
+    padding:15px;
+    vertical-align: middle;
+}
+.main-title2{
+    margin:5px 0px 15px 0px;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #666666;
+    text-align: left;
+    padding: 15px 0 0 15px;
+}
+.introduction2{
+    text-align: center;
+    max-width:730px;
+    padding:15px;
+    margin:0 auto 15px auto;
+    font-size: 23px;
+    font-family: 'Muli';
+    border: 3px solid;
+}
+.BlackMirror{
+    text-align: justify;
+    background-image: url('images/black-mirror-8.jpg');
+}
+
+/*The Crown and The Game of Thrones*/
+.TheCrown{
+    text-align: justify;
+    background-image: url('images/The Crown.jpg');
+}
+.hero-style2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    padding: 15px 0px;
+    max-width: 780px;
+    margin:15px 100px;
+}
+.main_content2{
+    background-color:rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.GameofThrones{
+    text-align: justify;
+    background-image: url('images/game-of-thrones-minimalist-season-poster-640409.6.jpg');
+}
