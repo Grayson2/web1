@@ -13,23 +13,18 @@
     justify-content: flex-end;
     align-items:center;
 }
-.hero-mainpage{
-    background:rgba(0, 0, 0, 0.7);
-    
-}
-.nav-mainpage{
-    display:inline-block;
-}
+
 .nav1{
     position:relative;
     text-align: right;
     display:inline-block;
     padding:10px;
-    border-radius:100px;
+    
 }
 .nav1:hover{
     transition: all 1.0s ease;
     background-color:rgba(255, 255, 255, 0.7);
+    border-radius:100px;
 }
 .logo{
     width: 85px;
@@ -66,8 +61,9 @@
     text-align: center;
 }
 .icon-border{
-    border:2px solid rgba(0, 0, 0, 0);
-    border-bottom-color: #ddd;
+    border:2px solid;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
 }
 /*Home page*/
 .home{
@@ -259,7 +255,6 @@ a{
     margin:0 auto 15px auto;
     font-size: 23px;
     font-family: 'Muli';
-    border: 3px solid;
 }
 .BlackMirror{
     text-align: justify;
@@ -273,17 +268,62 @@ a{
 }
 .hero-style2{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    color:white;
+    background-color: rgba(255, 255, 255, 0.9);
+    color:black;
     padding: 15px 0px;
     max-width: 780px;
     margin:15px 100px;
 }
 .main_content2{
-    background-color:rgba(0, 0, 0, 0.9);
-    color: white;
+    background-color:rgba(255, 255, 255, 0.9);
+    color: black;
 }
 .GameofThrones{
     text-align: justify;
     background-image: url('images/game-of-thrones-minimalist-season-poster-640409.6.jpg');
+}
+
+/*Footer Section*/
+.footer{
+    background:#000;
+    color:#BABABA;
+    font-size:12px;
+    font-family:"Medium-65", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight:normal;
+}
+.footer-navigation{
+    display: block;
+    text-align: center;
+}
+.left-box{
+    display: inline-block;
+    vertical-align: middle;
+    margin:30px 150px 30px auto;
+}
+.right-box{
+    display: inline-block;
+    vertical-align: middle;
+    margin:30px auto 30px 150px;
+    
+}
+.list{
+    text-decoration: none;
+    padding:5px;
+    color:rgba(255, 255, 255, 0.9);
+}
+.link-title{
+    font-size:15px;
+    
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 255,255, 0.9);
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+    transition: all 1.0 ease;
+}
+il{
+    margin:5px;
 }
